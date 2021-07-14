@@ -26,6 +26,17 @@
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
 
+        <!--
+        SpringCloud使用Sentinel 代替 Hystrix
+        https://blog.csdn.net/u011277123/article/details/92763625
+        -->
+        <!--加入sentinel 依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+            <version>0.9.0.RELEASE</version>
+        </dependency>
+
     </dependencies>
 
 </project>

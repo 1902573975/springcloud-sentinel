@@ -12,4 +12,15 @@ public class HealthCheckController {
     public int healthCheck(){
         return 200;
     }
+
+    @GetMapping("/msg")
+    public String getMsg(){
+        return "msg";
+    }
+
+    @GetMapping("/getAccount")
+    public String getAccount(){
+        return "getAccount";
+    }
+
 }
