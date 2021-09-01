@@ -10,7 +10,6 @@ public class AccountController {
 
     @GetMapping("/hc")
     public int healthCheck(){
-        org.springframework.cloud.alibaba.sentinel.SentinelProperties f;
         return 200;
     }
 }
