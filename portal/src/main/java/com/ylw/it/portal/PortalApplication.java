@@ -15,6 +15,12 @@ public class PortalApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(PortalApplication.class,args);
+
+        /**
+         * 如下是负载均衡重要的拦截器。实现负载均衡
+         */
+//        org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor in;
+        org.springframework.http.client.ClientHttpRequestInterceptor interceptor;
     }
 
     @Bean
